@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Home Application Shell -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
 
   <!-- Article 1: Cinematic Aspect Ratios -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#aspect-ratio-guide</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#aspect-ratio-guide</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
   <!-- Article 2: Tutorials Picture-In-Picture -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#tutorial-facecam-tips</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#tutorial-facecam-tips</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -26,7 +26,7 @@
 
   <!-- Article 3: Client-Side Security & Databases -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#offline-architecture-privacy</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#offline-architecture-privacy</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -34,7 +34,7 @@
 
   <!-- Article 4: Sketching Canvas -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#visual-sketching-guide</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#visual-sketching-guide</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -42,7 +42,7 @@
 
   <!-- Article 5: Microphone Audio setup -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#audio-mastery-noise</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#audio-mastery-noise</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -50,7 +50,7 @@
 
   <!-- Article 6: Portrait Screencasting for TikTok -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#shorts-tiktok-tips</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#shorts-tiktok-tips</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -58,7 +58,7 @@
 
   <!-- Article 7: Whiteboard Explainer switching -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#whiteboard-explainer-flow</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#whiteboard-explainer-flow</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -66,7 +66,7 @@
 
   <!-- Article 8: Browser Sandboxes constraints -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#browser-screenshare-secrets</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#browser-screenshare-secrets</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -74,7 +74,7 @@
 
   <!-- Article 9: Facecam custom branding styles -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#custom-branding-tips</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#custom-branding-tips</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -82,7 +82,7 @@
 
   <!-- Article 10: Video clips prepare & markers -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#youtube-clips-prep</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#youtube-clips-prep</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -90,7 +90,7 @@
 
   <!-- Article 11: Browser hardware acceleration lag -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#screen-capture-performance</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#screen-capture-performance</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -98,7 +98,7 @@
 
   <!-- Article 12: Webm viz MP4 container choices -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#codec-webm-mp4</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#codec-webm-mp4</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -106,7 +106,7 @@
 
   <!-- Article 13: Whiteboard highlight pens vs vectors -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#canvas-draw-modes</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#canvas-draw-modes</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -114,7 +114,7 @@
 
   <!-- Article 14: Hotkeys and marker mappings -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#recording-hotkeys-tutorial</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#recording-hotkeys-tutorial</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -122,7 +122,7 @@
 
   <!-- Article 15: Local storage quotas management -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#indexeddb-storage-quotas</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#indexeddb-storage-quotas</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -130,7 +130,7 @@
 
   <!-- Article 16: Background soundtracks and WebAudio -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#web-midi-synths</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#web-midi-synths</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -138,7 +138,7 @@
 
   <!-- Article 17: Fixing sample rate robotic voice -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#microphone-clipping-fix</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#microphone-clipping-fix</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -146,7 +146,7 @@
 
   <!-- Article 18: FPS sync with gaming screens -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#frame-rate-smoothness</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#frame-rate-smoothness</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -154,7 +154,7 @@
 
   <!-- Article 19: Circle camera positioning layers -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#picture-in-picture-api</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#picture-in-picture-api</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -162,7 +162,7 @@
 
   <!-- Article 20: Redacting variables security -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#privacy-confidential-mask</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#privacy-confidential-mask</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -170,7 +170,7 @@
 
   <!-- Article 21: Database diagrams whiteboard sketching -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#whiteboard-collaboration-blueprint</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#whiteboard-collaboration-blueprint</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -178,7 +178,7 @@
 
   <!-- Article 22: Retention rates in classrooms editing -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#classroom-retention-metrics</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#classroom-retention-metrics</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -186,7 +186,7 @@
 
   <!-- Article 23: Cheap webcam ring light LUTs -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#webcam-lighting-lut</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#webcam-lighting-lut</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -194,7 +194,7 @@
 
   <!-- Article 24: Short-form visual pacing structures -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#user-retention-youtube-shorts</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#user-retention-youtube-shorts</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -202,7 +202,7 @@
 
   <!-- Article 25: Compliance HIPAA secure recording sandbox -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#corporate-compliance-standards</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#corporate-compliance-standards</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -210,7 +210,7 @@
 
   <!-- Article 26: Compressor nodes real time WebAudio -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#gains-filters-compressor</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#gains-filters-compressor</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -218,7 +218,7 @@
 
   <!-- Article 27: Mark flags indexing clips -->
   <url>
-    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#marker-navigation-metadata</loc>
+    <loc>https://ssnyder1681.github.io/ScreenForge/#marker-navigation-metadata</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
