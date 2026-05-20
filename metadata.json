@@ -1,0 +1,12 @@
+{
+  "name": "ScreenForge",
+  "description": "A high-performance client-side screen recorder with microphone/system audio, webcam picture-in-picture, real-time audio visualizer, drawing board, clipping/trimmer editor, and local IndexedDB catalog.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

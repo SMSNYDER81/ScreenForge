@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Home Application Shell -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Article 1: Cinematic Aspect Ratios -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#aspect-ratio-guide</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 2: Tutorials Picture-In-Picture -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#tutorial-facecam-tips</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 3: Client-Side Security & Databases -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#offline-architecture-privacy</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 4: Sketching Canvas -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#visual-sketching-guide</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 5: Microphone Audio setup -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#audio-mastery-noise</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 6: Portrait Screencasting for TikTok -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#shorts-tiktok-tips</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 7: Whiteboard Explainer switching -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#whiteboard-explainer-flow</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 8: Browser Sandboxes constraints -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#browser-screenshare-secrets</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 9: Facecam custom branding styles -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#custom-branding-tips</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 10: Video clips prepare & markers -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#youtube-clips-prep</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 11: Browser hardware acceleration lag -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#screen-capture-performance</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 12: Webm viz MP4 container choices -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#codec-webm-mp4</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 13: Whiteboard highlight pens vs vectors -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#canvas-draw-modes</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 14: Hotkeys and marker mappings -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#recording-hotkeys-tutorial</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 15: Local storage quotas management -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#indexeddb-storage-quotas</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 16: Background soundtracks and WebAudio -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#web-midi-synths</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 17: Fixing sample rate robotic voice -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#microphone-clipping-fix</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 18: FPS sync with gaming screens -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#frame-rate-smoothness</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 19: Circle camera positioning layers -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#picture-in-picture-api</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 20: Redacting variables security -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#privacy-confidential-mask</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 21: Database diagrams whiteboard sketching -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#whiteboard-collaboration-blueprint</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 22: Retention rates in classrooms editing -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#classroom-retention-metrics</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 23: Cheap webcam ring light LUTs -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#webcam-lighting-lut</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 24: Short-form visual pacing structures -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#user-retention-youtube-shorts</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 25: Compliance HIPAA secure recording sandbox -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#corporate-compliance-standards</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 26: Compressor nodes real time WebAudio -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#gains-filters-compressor</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 27: Mark flags indexing clips -->
+  <url>
+    <loc>https://ais-pre-q6brzqx5qce6zv7sz4g4if-741309597469.us-east1.run.app/#marker-navigation-metadata</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
