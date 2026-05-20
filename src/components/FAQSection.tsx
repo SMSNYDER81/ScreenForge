@@ -155,13 +155,6 @@ export default function FAQSection() {
           </div>
         )}
       </div>
-
-      <div className="flex items-start gap-2.5 p-4 rounded-xl bg-indigo-950/10 border border-indigo-900/25">
-        <Info size={14} className="text-indigo-400 mt-0.5 shrink-0" />
-        <div className="text-[11px] leading-normal text-slate-400 font-medium">
-          <strong className="text-indigo-300">Google Search Console Indexing Tip:</strong> ScreenForge contains semantic sitemaps, structured schema data, schema-rich content headings, and fully response-adapted layouts. All local review links use direct hash-routing compatible with bot scraping filters.
-        </div>
-      </div>
     </section>
   );
 }
