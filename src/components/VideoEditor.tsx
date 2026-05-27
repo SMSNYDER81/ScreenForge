@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Play, Pause, RotateCcw, Download, Scissors, Bookmark, ChevronRight, Volume2, VolumeX, Eye } from 'lucide-react';
+import { Play, Pause, RotateCcw, Download, Scissors, Bookmark, ChevronRight, Volume2, VolumeX, Eye, Sparkles, ExternalLink } from 'lucide-react';
 import { Marker, RecordingItem } from '../types';
 
 interface VideoEditorProps {
@@ -411,17 +411,37 @@ export default function VideoEditor({ recording, onSaveTrim, onClose }: VideoEdi
           </div>
 
           {/* Action trigger download */}
-          <div className="border-t border-slate-800/80 pt-3">
-            <button
-              id="editor-download-raw-btn"
-              onClick={triggerDownload}
-              className="w-full py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2"
-            >
-              <Download size={14} /> Download WebM Recording
-            </button>
-            <p className="text-[10px] font-mono text-center text-slate-500 mt-1.5 leading-tight">
-              Saves a high-quality fully-playable WebM container to your computer.
-            </p>
+          <div className="border-t border-slate-800/80 pt-3 flex flex-col gap-3">
+            <div>
+              <button
+                id="editor-download-raw-btn"
+                onClick={triggerDownload}
+                className="w-full py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2"
+              >
+                <Download size={14} /> Download WebM Recording
+              </button>
+              <p className="text-[10px] font-mono text-center text-slate-500 mt-1.5 leading-tight">
+                Saves a high-quality fully-playable WebM container to your computer.
+              </p>
+            </div>
+
+            <div className="relative mt-2 border border-slate-800/80 bg-slate-950/40 rounded-xl p-3 border-dashed hover:border-indigo-500/30 transition-all">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1.5 mb-1.5">
+                <Sparkles size={11} className="text-amber-450 animate-pulse" /> Producer Sibling Site
+              </span>
+              <p className="text-[10px] text-slate-400 leading-relaxed mb-3 font-medium">
+                Want to publish professional video campaigns? Take this recording to <strong className="text-indigo-300">The Video Forge</strong> to apply high-fidelity cloud themes and cinematic templates.
+              </p>
+              <a
+                href="https://thevideoforge.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-2 px-3 rounded-lg bg-slate-900 border border-slate-800 hover:bg-slate-850 hover:text-white text-[11px] font-semibold transition-all flex items-center justify-center gap-1.5"
+              >
+                <span>Produce on The Video Forge</span>
+                <ExternalLink size={11} className="text-indigo-400" />
+              </a>
+            </div>
           </div>
 
         </div>

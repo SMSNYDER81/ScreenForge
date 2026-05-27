@@ -791,6 +791,18 @@ export default function App() {
         {/* Database Sandbox details bar with Standalone Tab anchor */}
         <div className="flex items-center gap-3 text-xs">
           <a
+            href="https://thevideoforge.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 hover:border-indigo-500/30 transition-all text-slate-300 hover:text-white font-medium shadow-md active:scale-95"
+            title="Visit our companion site, The Video Forge, for premium video campaigns and templates"
+          >
+            <Sparkles size={13} className="text-amber-400 animate-pulse" />
+            <span className="font-sans font-semibold">The Video Forge</span>
+            <ExternalLink size={11} className="text-slate-550" />
+          </a>
+
+          <a
             href={window.location.href}
             target="_blank"
             rel="noopener noreferrer"
@@ -1429,6 +1441,39 @@ export default function App() {
             )}
           </div>
 
+          {/* SISTER-SITE ECOSYSTEM INTEGRATION CARD */}
+          <div className="bg-gradient-to-br from-indigo-950/45 to-slate-900 border border-indigo-500/20 p-6 rounded-2xl shadow-xl flex flex-col gap-4 relative overflow-hidden group hover:border-indigo-500/35 transition-all duration-300">
+            {/* Soft decorative background glow */}
+            <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-tr from-indigo-500/10 to-transparent blur-2xl rounded-full pointer-events-none group-hover:scale-110 transition-transform duration-500" />
+            
+            <div className="flex items-center gap-2">
+              <div className="p-2 rounded-xl bg-indigo-500/10 text-indigo-400 border border-indigo-500/25 shadow-md">
+                <Sparkles size={16} className="text-amber-450 animate-pulse" />
+              </div>
+              <div>
+                <span className="text-[10px] font-mono font-bold text-indigo-400 uppercase tracking-widest leading-none">Companion Ecosystem</span>
+                <h4 className="text-sm font-bold text-white tracking-tight flex items-center gap-1.5 mt-0.5">
+                  The Video Forge
+                </h4>
+              </div>
+            </div>
+
+            <p className="text-xs text-slate-300 leading-relaxed font-medium">
+              Finished recording your raw browser views or webcam commentaries on ScreenForge?
+              Head to <strong className="text-indigo-300 font-bold hover:underline"><a href="https://thevideoforge.com/" target="_blank" rel="noopener noreferrer">The Video Forge</a></strong> to apply beautiful animated templates, voiceovers, text-to-speech, and rich overlay graphics!
+            </p>
+
+            <a
+              href="https://thevideoforge.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 w-full py-2.5 px-4 bg-gradient-to-r from-indigo-650 to-indigo-800 hover:from-indigo-550 hover:to-indigo-750 text-white font-semibold text-xs rounded-xl shadow-lg hover:shadow-indigo-500/10 transition-all active:scale-98 flex items-center justify-center gap-2"
+            >
+              <span>Explore The Video Forge</span>
+              <ExternalLink size={12} className="opacity-80" />
+            </a>
+          </div>
+
         </div>
 
         {/* BRIGHT DRAWING BOARD SECTION */}
@@ -1735,10 +1780,23 @@ export default function App() {
       </main>
 
       {/* FOOTER BAR */}
-      <footer id="footer-credits" className="w-full mt-auto py-6 border-t border-slate-900 bg-slate-950 text-center text-slate-650 text-xs font-mono select-none">
-        <p className="text-slate-500">
-          ScreenForge Static Website Engine • Built with modern React 19, Tailwind CSS v4 & IndexedDB.
-        </p>
+      <footer id="footer-credits" className="w-full mt-auto py-8 border-t border-slate-900 bg-slate-950 text-slate-500 text-xs font-mono select-none">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-center md:text-left text-[11px] text-slate-500">
+            ScreenForge • Professional offline-first screen, audio & webcam capture engine. Built with React and IndexedDB.
+          </p>
+          <div className="flex items-center gap-1.5 text-[11px] text-slate-400">
+            <span>Part of the suite:</span>
+            <a
+              href="https://thevideoforge.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-400 hover:text-indigo-300 font-bold underline flex items-center gap-0.5 transition-colors"
+            >
+              The Video Forge <ExternalLink size={10} />
+            </a>
+          </div>
+        </div>
       </footer>
 
       {/* Visual Delete Confirmation Modal (Avoids IFrame confirm blocking) */}
