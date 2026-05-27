@@ -788,19 +788,8 @@ export default function App() {
           </div>
         </div>
 
-        {/* Database Sandbox details bar with Standalone Tab anchor */}
+        {/* Database Sandbox details bar */}
         <div className="flex items-center gap-3 text-xs">
-          <a
-            href={window.location.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 transition-all text-white font-medium shadow-md hover:shadow-indigo-500/20 active:scale-95"
-            title="Launch app in a secondary tab to bypass iframe policy limits"
-          >
-            <ExternalLink size={13} />
-            <span className="font-sans font-semibold">Open Standalone</span>
-          </a>
-
           <div className="hidden md:flex items-center gap-4 font-mono">
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800">
               <Database size={12} className="text-emerald-400" />
