@@ -8,6 +8,20 @@
     <!-- Deployment Trigger Revision: Sitemap Hash Fix -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7814690967688754"
          crossorigin="anonymous"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Ad Service Worker registered successfully', reg.scope))
+            .catch(err => {
+              console.warn('Ad Service Worker sw.js failure, trying service-worker.js', err);
+              navigator.serviceWorker.register('/service-worker.js')
+                .then(reg => console.log('Ad Service Worker alternative registered successfully', reg.scope))
+                .catch(err2 => console.error('Ad Service Worker registration failed', err2));
+            });
+        });
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
