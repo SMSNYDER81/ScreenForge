@@ -791,17 +791,6 @@ export default function App() {
         {/* Database Sandbox details bar with Standalone Tab anchor */}
         <div className="flex items-center gap-3 text-xs">
           <a
-            href="https://thevideoforge.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 hover:border-indigo-500/30 transition-all text-slate-300 hover:text-white font-medium shadow-md active:scale-95"
-            title="Visit our companion site, The Video Forge"
-          >
-            <span className="font-sans font-semibold">The Video Forge</span>
-            <ExternalLink size={11} className="text-slate-500" />
-          </a>
-
-          <a
             href={window.location.href}
             target="_blank"
             rel="noopener noreferrer"
@@ -1746,23 +1735,10 @@ export default function App() {
       </main>
 
       {/* FOOTER BAR */}
-      <footer id="footer-credits" className="w-full mt-auto py-8 border-t border-slate-900 bg-slate-950 text-slate-500 text-xs font-mono select-none">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-center md:text-left text-[11px] text-slate-500">
-            ScreenForge • Professional offline-first screen, audio & webcam capture engine. Built with React and IndexedDB.
-          </p>
-          <div className="flex items-center gap-1.5 text-[11px] text-slate-400">
-            <span>Part of the suite:</span>
-            <a
-              href="https://thevideoforge.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-400 hover:text-indigo-300 font-bold underline flex items-center gap-0.5 transition-colors"
-            >
-              The Video Forge <ExternalLink size={10} />
-            </a>
-          </div>
-        </div>
+      <footer id="footer-credits" className="w-full mt-auto py-6 border-t border-slate-900 bg-slate-950 text-center text-slate-650 text-xs font-mono select-none">
+        <p className="text-slate-500">
+          ScreenForge Static Website Engine • Built with modern React 19, Tailwind CSS v4 & IndexedDB.
+        </p>
       </footer>
 
       {/* Visual Delete Confirmation Modal (Avoids IFrame confirm blocking) */}
