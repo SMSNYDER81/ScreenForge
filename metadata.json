@@ -1,6 +1,6 @@
 {
   "name": "ScreenForge",
-  "description": "A high-performance client-side screen recorder with microphone/system audio, webcam picture-in-picture, real-time audio visualizer, drawing board, clipping/trimmer editor, and local IndexedDB catalog.",
+  "description": "A high-performance, ad-free, and privacy-focused client-side screen recorder with microphone/system audio, webcam picture-in-picture, real-time audio visualizer, drawing board, clipping/trimmer editor, and local IndexedDB catalog.",
   "requestFramePermissions": [
     "camera",
     "microphone",

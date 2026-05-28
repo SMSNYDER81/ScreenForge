@@ -1,7 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { 
   BookOpen, Calendar, Clock, ChevronRight, X, Sparkles, Send, Shield, 
-  Monitor, Pencil, Volume2, ArrowLeft, ArrowRight, Search, Heart, Share2, HelpCircle
+  Monitor, Pencil, Volume2, ArrowLeft, ArrowRight, Search, Heart, Share2, HelpCircle,
+  Check
 } from 'lucide-react';
 
 interface Article {
@@ -21,6 +22,22 @@ export default function BlogHub() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [featuredIndex, setFeaturedIndex] = useState(0);
+  const [isCopied, setIsCopied] = useState(false);
+
+  const fallbackCopy = (text: string) => {
+    try {
+      const el = document.createElement('textarea');
+      el.value = text;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+      setIsCopied(true);
+      setTimeout(() => setIsCopied(false), 2000);
+    } catch (e) {
+      console.warn('Fallback copy failed', e);
+    }
+  };
 
   const articles: Article[] = [
     {
@@ -664,12 +681,33 @@ export default function BlogHub() {
                 </div>
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText(`${window.location.origin}#${selectedArticle.id}`);
-                    alert('SEO Article URL copied to clipboard!');
+                    const shareUrl = `${window.location.origin}#${selectedArticle.id}`;
+                    try {
+                      navigator.clipboard.writeText(shareUrl).then(() => {
+                        setIsCopied(true);
+                        setTimeout(() => setIsCopied(false), 2000);
+                      }).catch((err) => {
+                        console.error('Clipboard error:', err);
+                        fallbackCopy(shareUrl);
+                      });
+                    } catch (err) {
+                      console.error('Clipboard exception:', err);
+                      fallbackCopy(shareUrl);
+                    }
                   }}
-                  className="px-3 py-1.5 bg-indigo-650 hover:bg-indigo-600 rounded-lg text-xs font-semibold text-white transition-all active:scale-95 flex items-center gap-1"
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold text-white transition-all active:scale-95 flex items-center gap-1 ${
+                    isCopied ? 'bg-emerald-600 hover:bg-emerald-500' : 'bg-indigo-650 hover:bg-indigo-600'
+                  }`}
                 >
-                  <Send size={11} /> Copy Share Link
+                  {isCopied ? (
+                    <>
+                      <Check size={11} /> Copied!
+                    </>
+                  ) : (
+                    <>
+                      <Send size={11} /> Copy Share Link
+                    </>
+                  )}
                 </button>
               </div>
             </div>
